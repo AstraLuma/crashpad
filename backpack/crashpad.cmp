@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 11 Jun 2014 09:32:59 PM EDT
+
+BeginCmp
+TimeStamp = /5398ED6D;
+Reference = COM1;
+ValeurCmp = CONN_1;
+IdModule  = INTERCONNECT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398ED68;
+Reference = COM2;
+ValeurCmp = CONN_1;
+IdModule  = INTERCONNECT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398ED37;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /536B0864;
+Reference = MX1;
+ValeurCmp = CHERRY_MX_DIODE;
+IdModule  = cherry_mx_diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398ED43;
+Reference = R1;
+ValeurCmp = 39K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398ED61;
+Reference = ROW1;
+ValeurCmp = CONN_1;
+IdModule  = INTERCONNECT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398ED65;
+Reference = ROW2;
+ValeurCmp = CONN_1;
+IdModule  = INTERCONNECT;
+EndCmp
+
+EndListe

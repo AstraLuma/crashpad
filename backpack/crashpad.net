@@ -1,0 +1,49 @@
+# EESchema Netlist Version 1.1 created  Wed 11 Jun 2014 09:32:59 PM EDT
+(
+ ( /5398ED6D INTERCONNECT COM1 CONN_1
+  ( 1 N-000003 )
+ )
+ ( /5398ED68 INTERCONNECT COM2 CONN_1
+  ( 1 N-000003 )
+ )
+ ( /5398ED37 SM1206 D1 DIODE
+  ( 1 N-000002 )
+  ( 2 N-000004 )
+ )
+ ( /536B0864 cherry_mx_diode MX1 CHERRY_MX_DIODE
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+  ( 3 N-000002 )
+  ( 4 N-000004 )
+  ( 5 N-000004 )
+  ( 6 N-000003 )
+ )
+ ( /5398ED43 SM1206 R1 39K
+  ( 1 N-000003 )
+  ( 2 N-000001 )
+ )
+ ( /5398ED61 INTERCONNECT ROW1 CONN_1
+  ( 1 N-000004 )
+ )
+ ( /5398ED65 INTERCONNECT ROW2 CONN_1
+  ( 1 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$component MX1
+ cherry_mx_diode
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

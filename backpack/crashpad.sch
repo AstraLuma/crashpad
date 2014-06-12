@@ -1,0 +1,156 @@
+EESchema Schematic File Version 2  date Wed 11 Jun 2014 08:08:17 PM EDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:markus_cherry_mx_diode
+LIBS:crashpad-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "12 jun 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2900 6200 2850 6200
+Wire Wire Line
+	2900 6200 2900 7000
+Wire Wire Line
+	2900 7000 4700 7000
+Wire Wire Line
+	4700 7000 4700 6300
+Wire Wire Line
+	4700 6300 4350 6300
+Wire Wire Line
+	3000 6100 2850 6100
+Wire Wire Line
+	3750 6000 3750 6100
+Wire Wire Line
+	3750 6100 3500 6100
+Connection ~ 4450 6150
+Wire Wire Line
+	4600 6150 4350 6150
+Wire Wire Line
+	4250 6650 4450 6650
+Wire Wire Line
+	4450 6650 4450 6150
+Wire Wire Line
+	3850 6650 3650 6650
+Wire Wire Line
+	3650 6650 3650 5700
+Wire Wire Line
+	4350 6000 4350 5700
+Wire Wire Line
+	4350 5700 3650 5700
+Wire Wire Line
+	3650 6150 3750 6150
+Connection ~ 3650 6150
+Wire Wire Line
+	2850 6100 2850 6200
+Wire Wire Line
+	3750 6300 3450 6300
+Wire Wire Line
+	3450 6300 3450 6900
+Wire Wire Line
+	3450 6900 4600 6900
+Wire Wire Line
+	4600 6900 4600 6050
+Connection ~ 4600 6150
+$Comp
+L CONN_1 COM1
+U 1 1 5398ED6D
+P 2700 6100
+F 0 "COM1" H 2780 6100 40  0000 L CNN
+F 1 "CONN_1" H 2700 6155 30  0001 C CNN
+	1    2700 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 COM2
+U 1 1 5398ED68
+P 2700 6200
+F 0 "COM2" H 2780 6200 40  0000 L CNN
+F 1 "CONN_1" H 2700 6255 30  0001 C CNN
+	1    2700 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 ROW2
+U 1 1 5398ED65
+P 4750 6150
+F 0 "ROW2" H 4830 6150 40  0000 L CNN
+F 1 "CONN_1" H 4750 6205 30  0001 C CNN
+	1    4750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 ROW1
+U 1 1 5398ED61
+P 4750 6050
+F 0 "ROW1" H 4830 6050 40  0000 L CNN
+F 1 "CONN_1" H 4750 6105 30  0001 C CNN
+	1    4750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5398ED43
+P 3250 6100
+F 0 "R1" V 3330 6100 50  0000 C CNN
+F 1 "39K" V 3250 6100 50  0000 C CNN
+	1    3250 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 5398ED37
+P 4050 6650
+F 0 "D1" H 4050 6750 40  0000 C CNN
+F 1 "DIODE" H 4050 6550 40  0000 C CNN
+	1    4050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX_DIODE MX1
+U 1 1 536B0864
+P 4050 6000
+F 0 "MX1" H 4050 6200 50  0000 C CNN
+F 1 "CHERRY_MX_DIODE" H 4050 5550 50  0000 C CNN
+	1    4050 6000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
