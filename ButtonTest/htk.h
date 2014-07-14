@@ -1,1 +1,1 @@
-htklib/htk.h
+../htklib/htk.h
