@@ -9,6 +9,9 @@
 // This should only be 10ms (per spec), but this value works empirically
 #define HT16K33_KEYTIME 20
 
+#define HT16K33_KEYS 3
+#define HT16K33_ROWS 8
+
 class HT16K33
 {
   public:
@@ -34,6 +37,10 @@ class HT16K33
         uint16_t KS1;
         uint16_t KS2;
       };
+    };
+    
+    struct dispstruct {
+      uint16_t rows[HT16K33_ROWS];
     };
 
   private:
@@ -65,7 +72,7 @@ class HT16K33
     void setup(bool);
     void rowint(bool, bool=false);
     void display_setup(bool, Blink=NOBLINK);
-    //void display(...);
+    void display(const dispstruct*);
     void dimming(uint8_t);
     bool interrupt(void);
     keystruct keydata(void);

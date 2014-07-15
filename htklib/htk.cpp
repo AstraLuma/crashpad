@@ -108,7 +108,10 @@ void HT16K33::display_setup(bool on, Blink blink)
   command(cmd);
 }
 
-//void HT16K33::display(...)
+void HT16K33::display(const HT16K33::dispstruct *data)
+{
+  write(0x00, (const uint8_t*)data, sizeof(uint8_t)*HT16K33_ROWS);
+}
 
 void HT16K33::dimming(uint8_t level)
 {
